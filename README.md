@@ -75,3 +75,39 @@ python src/sprint1_etl.py
 ```text
 python src/sprint2_analysis.py
 ```
+
+### 📌 Sprint 3 - Visualização e Dashboard
+**Objetivo:** Comunicar os principais indicadores de negócio e permitir a exploração interativa dos resultados de vendas.
+
+#### 📂 Nova Estrutura de Arquivos:
+```text
+├── sql/
+│   └── queries_sprint2.sql
+├── src/
+│   ├── sprint1_etl.py
+│   ├── sprint2_analysis.py
+│   └── sprint3_dashboard.py      # Script de desenvolvimento do Dashboard interativo
+└── requirements.txt              # Dependências do projeto atualizadas (streamlit, plotly)
+```
+
+#### 📊 Funcionalidades e Requisitos Implementados:
+
+**1. Métricas e KPIs Principais (Requisito 1):**
+- **Faturamento Total:** Soma dinâmica de todas as vendas do e-commerce.
+- **Ticket Médio:** Cálculo automatizado baseado na divisão do faturamento pelo volume de transações exclusivas.
+- **Total de Pedidos e Clientes Ativos:** Volumetria em tempo real para acompanhamento de engajamento.
+
+**2. Análise de Sazonalidade Temporal (Requisito 2):**
+- Gráfico de linha interativo mapeando a evolução mensal do faturamento para identificar picos de vendas e comportamento sazonal do mercado.
+
+**3. Filtros Dinâmicos e Interatividade (Requisito 3):**
+- Criação de uma barra lateral intuitiva permitindo filtrar todo o painel por *Categoria de Produto* e *Método de Pagamento* simultaneamente.
+- Gráfico de barras horizontal acoplado para destacar o ranking de lucratividade das categorias de forma visual.
+
+#### 🚀 Como Executar o Dashboard da Sprint 3
+Certifique-se de que as dependências estão instaladas (pip install -r requirements.txt) e execute o comando abaixo no terminal:
+```text
+streamlit run src/sprint3_dashboard.py
+```
+
+O painel será inicializado localmente e aberto de forma automática no seu navegador de internet.
