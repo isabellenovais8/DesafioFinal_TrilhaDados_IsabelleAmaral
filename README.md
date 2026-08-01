@@ -60,7 +60,7 @@ Objetivo: Aplicar Machine Learning para previsão de faturamento do e-commerce.
 - **Avaliação de Desempenho:** Mensuração do erro do modelo utilizando a métrica MAE (Erro Médio Absoluto).
 - **Projeção Futura:** Estimativa matemática do volume de faturamento bruto para os próximos 30 dias de operação.
 
-#### 🚀 Como Executar o Projeto
+### 🚀 Como Executar o Projeto
 1. Clone o repositório:
 ```text
 git clone [https://github.com/isabellenovais8/DesafioFinal_TrilhaDados_IsabelleAmaral.git](https://github.com/isabellenovais8/DesafioFinal_TrilhaDados_IsabelleAmaral.git)
